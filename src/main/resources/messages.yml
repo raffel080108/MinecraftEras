@@ -11,10 +11,11 @@ COMMAND_HELP_MESSAGE:
       <br><green><b>MinecraftEras commands list</b>:
       <br><aqua>/mce help <gray>- <blue>Displays this help message
       <br><aqua>/mce addEraScore <amount> <gray>- <blue>Add era points to the current total era-score
-      <br><aqua>/mce checkEraScore <gray>- <blue>Display the current total era-score
-      <br><aqua>/mce depositItem <gray>- <blue>Deposit an item to receive era-score
+      <br><aqua>/mce checkEraScore <gray>- <blue>Displays the current total era-score
+      <br><aqua>/mce depositItem <gray>- <blue>Attempts to deposit the currently held item for era-score
       <br><aqua>/mce reload <gray>- <blue>Reload the plugin's configurations
       <br><aqua>/mce spawnCampMaster [x] [y] [z] [world] <gray>- <blue>Spawns the camp master at your current position or the specified coordinates and (optionally) world
+      <br><aqua>/mce removeCampMaster - Kills the camp master
       <br><br><green>Any command is accessible with the permission minecrafteras.(command-name) and all commands are accessible with minecrafteras.* (or */op)
       <br><green>All commands are prefixed with either \"mce\" or \"minecrafteras\"
       <br><dark_gray><b>----------"
