@@ -55,7 +55,7 @@
                         </goals>
                         <configuration>
                             <sourceFile>.\target\${project.artifactId}-${project.version}.jar</sourceFile>
-                            <destinationFile>C:\Computer\Minecraft\Testing-Server\plugins\${project.artifactId}-${project.version}.jar</destinationFile>
+                            <destinationFile>.\Server\plugins\${project.artifactId}-${project.version}.jar</destinationFile>
                         </configuration>
                     </execution>
                 </executions>
