@@ -1,0 +1,69 @@
+# DO NOT MODIFY
+config-version: 1
+
+# Minecraft sound-key names apply. Keys must match exactly (case-insensitive)
+# https://www.digminecraft.com/lists/sound_list_pc.php
+
+# Sound is sent to every online player
+ERA_UNLOCKED:
+  key: "ui.toast.challenge_complete"
+  volume: 0.6
+  pitch: 1.5
+
+CANNOT_ATTACK_ENTITY:
+  key: "entity.item.break"
+  volume: 1
+  pitch: 1
+
+CANNOT_MINE_BLOCK:
+  key: "entity.item.break"
+  volume: 1
+  pitch: 1
+
+# Sound is sent to every online player
+QUEST_STARTED:
+  key: "block.beacon.activate"
+  volume: 1
+  pitch: 1.5
+
+QUEST_ABORTED:
+  key: "block.beacon.deactivate"
+  volume: 1
+  pitch: 1.5
+
+# Sound is sent to every online player
+QUEST_COMPLETED:
+  key: "entity.player.levelup"
+  volume: 1
+  pitch: 1
+
+ITEM_DEPOSITED:
+  key: "entity.experience_orb.pickup"
+  volume: 1
+  pitch: 1
+
+# Sound will be emitted to all players near the spawn-location
+CAMP_MASTER_SPAWNED:
+  key: "entity.villager.celebrate"
+  volume: 1
+  pitch: 1.5
+
+MAX_QUESTS_ACTIVE:
+  key: "entity.villager.no"
+  volume: 1
+  pitch: 1.1
+
+QUEST_TRACKED:
+  key: "entity.experience_orb.pickup"
+  volume: 1
+  pitch: 1
+
+QUEST_UNTRACKED:
+  key: "entity.experience_orb.pickup"
+  volume: 1
+  pitch: 0.5
+
+QUEST_REWARD_CLAIMED:
+  key: "entity.experience_orb.pickup"
+  volume: 1
+  pitch: 1
