@@ -1,0 +1,146 @@
+# DO NOT MODIFY
+config-version: 1
+
+# Formatting from MiniMessage is supported for all messages
+# https://docs.advntr.dev/minimessage/format.html
+# Non-Strict mode applies
+# Comments above messages indicate supported placeholder-tags for that message
+
+COMMAND_HELP_MESSAGE:
+  "<dark_gray><b>----------<reset>
+      <br><green><b>MinecraftEras commands list</b>:
+      <br><aqua>/mce help <gray>- <blue>Displays this help message
+      <br><aqua>/mce addEraScore <amount> <gray>- <blue>Add a certain amount of era-score to the total balance
+      <br><aqua>/mce checkEraScore <gray>- <blue>Displays the current total era-score
+      <br><aqua>/mce depositItem <gray>- <blue>Attempts to deposit the currently held item for era-score
+      <br><aqua>/mce reload <gray>- <blue>Reloads all configurations from disk
+      <br><aqua>/mce spawnCampMaster [x] [y] [z] [world] <gray>- <blue>Spawns the camp master at your current position or the specified coordinates and (optionally) world
+      <br><aqua>/mce removeCampMaster - Kills the camp master
+      <br><br><green>Any command is accessible with the permission minecrafteras.(command-name) and all commands are accessible with minecrafteras.* (or */op)
+      <br><green>All commands are prefixed with either \"mce\" or \"minecrafteras\"
+      <br><dark_gray><b>----------"
+
+# <era>
+ERA_UNLOCKED_TITLE: "<dark_green>New era reached!"
+
+# <era>
+ERA_UNLOCKED_SUBTITLE: "<green>The <era>"
+
+# <era> <era-details>
+ERA_UNLOCKED_BROADCAST: "<green>The <era> has been reached! <br><era-details>"
+
+
+CANNOT_ATTACK_ENTITY: "<red>You have not yet unlocked the ability of attacking this entity"
+
+CANNOT_MINE_BLOCK: "<red>You have not yet unlocked the ability to mine this block"
+
+
+# <amount>
+ERA_SCORE_ADDED: "<green>Successfully added <amount> era-points to the total balance"
+
+
+NO_QUESTS_AVAILABLE: "<red>There are currently no quests available"
+
+QUESTS_GUI_TITLE: "<green>Quests"
+
+QUEST_GUI_ADDED_LORE_NOT_ACTIVE: "<yellow>Click to activate the quest"
+
+QUEST_GUI_ADDED_LORE_ACTIVE: "<red>Click to cancel the quest"
+
+QUEST_GUI_ADDED_LORE_COMPLETED: "<green>Click to redeem the quest"
+
+
+QUEST_GUI_ADDED_LORE_NOT_TRACKED: "<green>Right-Click to track this quest"
+
+QUEST_GUI_ADDED_LORE_TRACKED: "<red>Right-Click to un-track this quest"
+
+
+MAX_QUESTS_ACTIVE: "<red>The current amount of active quests is the maximum. Please cancel another quest before starting this one"
+
+# <quest>
+QUEST_STARTED_TITLE: "<green>New quest!"
+
+# <quest>
+QUEST_STARTED_SUBTITLE: ""
+
+# <quest> <quest-details>
+QUEST_STARTED_BROADCAST: "<green>New quest: <quest-details>"
+
+# <quest>
+QUEST_ABORTED_BROADCAST: "<red>Quest <quest> has been cancelled"
+
+
+# <quest>
+QUEST_COMPLETED_TITLE: "<green>Quest completed!"
+
+# <quest>
+QUEST_COMPLETED_SUBTITLE: "Quest <quest> has been completed"
+
+# <quest>
+QUEST_COMPLETED_BROADCAST: "<green>Quest <quest> has been completed. Head to the camp master to collect the rewards"
+
+
+# <quest>
+QUEST_TRACKED: "<green>You are now tracking quest <quest>"
+
+# <quest>
+QUEST_UNTRACKED: "<red>You are no longer tracking quest <quest>"
+
+
+QUEST_REWARD_CLAIMED: "<green>The quest's reward has been claimed"
+
+
+RELOAD_SUCCESS: "<green>Reloaded successfully"
+
+RELOAD_ERROR_CONFIG: "<red>An error related to the config.yml file occurred while reloading"
+
+RELOAD_ERROR_MESSAGES: "<red>An error related to the messages.yml file occurred while reloading"
+
+RELOAD_ERROR_SOUNDS: "<red>An error related to the sounds.yml file occurred while reloading"
+
+
+NOT_HOLDING_AN_ITEM: "<red>You must be holding an item"
+
+CANNOT_DEPOSIT_ITEM: "<red>You cannot deposit this item"
+
+# <min>
+NOT_ENOUGH_PROGRESSION_FOR_DEPOSIT: "<red>You cannot deposit this item at this time. Try again after getting to at least <min> era-score <i>(check using /checkerascore)"
+
+# <max>
+TOO_MUCH_PROGRESSION_FOR_DEPOSIT: "<red>You cannot deposit this item at this time. You would need <max> era-score or less"
+
+# <amount>
+ITEM_DEPOSITED: "<green>You successfully deposited the item(s) for <amount> era-score"
+
+
+# <missing-args>
+MISSING_ARGUMENTS: "<red>Missing argument(s): <missing-args>"
+
+# <world>
+WORLD_DOESNT_EXIST: "<red>World <world> doesn't exist"
+
+
+CAMP_MASTER_SPAWNED_BROADCAST: "<green>The camp master has spawned in <world> at <location>"
+
+CAMP_MASTER_DEATH_BROADCAST: "<red>The camp master has died"
+
+CAMP_MASTER_ALREADY_SPAWNED: "<red>The camp master has already been spawned"
+
+CAMP_MASTER_NOT_SPAWNED: "<red>The camp master is currently not spawned"
+
+
+# <amount>
+CURRENT_ERA_SCORE: "<green>The current total era-score is <amount>"
+
+
+# <quest> <current> <required>
+QUEST_PROGRESS_ADVANCEMENTS: "<green><b><quest></b>: <current>/<required> completed"
+
+# <quest> <current> <required>
+QUEST_PROGRESS_MINING: "<green><b><quest></b>: <green><current>/<required> mined"
+
+# <quest> <current> <required>
+QUEST_PROGRESS_KILLING: "<green><b><quest></b>: <green><current>/<required> killed"
+
+# <quest> <current> <required>
+QUEST_PROGRESS_TRAVELING: "<green><b><quest></b>: <green><current>/<required> blocks travelled"
